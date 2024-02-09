@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Will you be my valentine? </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/valentine.css">
+    </head>
+    <body>
+        <div class = container >
+            <img src="val.jpeg" alt="Description of the image">
+            <h1> And be my valentine? </h1>
+            <a href = "http://tinyurl.com/bdtdv3bn"><button id = yesButton> Yes </button></a>
+            <button id = noButton> No </button>
+            <script>
+                document.getElementById('noButton').addEventListener('click', function() {
+                var currentSize = window.getComputedStyle(document.getElementById('yesButton')).fontSize;
+                var numericSize = parseFloat(currentSize);
+                var newSize = numericSize + 10;
+                document.getElementById('yesButton').style.fontSize = newSize + 'px';
+            });
+            </script>
+        </div>
+    </body>
+</html>
