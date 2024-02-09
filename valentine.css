@@ -1,3 +1,7 @@
+.container {
+    text-align: center; 
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -11,10 +15,6 @@ img {
     height: auto; 
     display: block; 
     margin-bottom: 10px; 
-}
-
-.container {
-    text-align: center; 
 }
 
 h1, button {
