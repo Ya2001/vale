@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.container {
+    text-align: center; 
+}
+
+h1, button {
+    margin: 0; 
+}
+
+button {
+    margin-top: 10px;
+}
